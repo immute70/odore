@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.header {
+    /* max-width: 1824px;
+    margin: 0 auto; */
+    background-color: white;
+    padding: 18px 48px 48px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_li {
+    display: inline-block;
+}
+
+.nav_li1 {
+    display: inline-block;
+    margin-left: 34px;
+}
+
+.nav_li:not(:first-of-type){
+    margin-left: 34px;
+}
+
+.nav_link{
+    font-family: "DM sans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 114.52%;
+    color: #010101;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: #252323;
+    transition: 500ms;
+}
+
+.button {
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background: #19191B;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.button:hover {
+    background: #2a2a2c
+    
+}
+
+
+.getstarted{
+    font-family: 'DM Sans';
+    width: 165px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 114.52%;
+}
+
+.about {
+    display: flex;
+    margin: 183px 253px 0px 258px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__namechanel {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 114.52%;
+    letter-spacing: 0.155em;
+    color: #19191B;
+    max-width: 450px;
+}
+
+.about__paris {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 114.52%;
+    letter-spacing: 0.155em;
+    color: #19191B;
+    max-width: 175px;
+    margin-bottom: 44px;
+}
+
+.about__chanel {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 114.52%;
+    color: #696871; 
+    max-width: 569px;
+    margin-bottom: 53px;
+}
+
+.buy_now {
+    font-family: 'DM Sans';
+    width: 332px;
+    height: 93px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.52%;
+    color: #FFFFFF;
+}
+
+.footer {
+    background: rgba(25, 25, 27, 0.2);
+}
+
+.support {
+    font-weight: 700;
+    display: inline-block;
+}
+
+.support_ {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.li_li {
+    display: inline-block;
+    margin-left: 33px;
+}
+
+.li_li:not(:last-of-type) {
+    margin-left: 33px;
+}
+
+.li_link {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
