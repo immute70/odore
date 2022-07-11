@@ -8,10 +8,9 @@
 }
 
 .header {
-    /* max-width: 1824px;
-    margin: 0 auto; */
     background-color: white;
     padding: 18px 48px 48px;
+    
 }
 
 .container {
@@ -27,24 +26,30 @@
 
 .nav_li {
     display: inline-block;
+    
 }
 
 .nav_li1 {
     display: inline-block;
     margin-left: 34px;
+    text-align: right;
 }
+
+
 
 .nav_li:not(:first-of-type){
     margin-left: 34px;
 }
 
 .nav_link{
+    position: relative;
     font-family: "DM sans";
     font-weight: 700;
     font-size: 20px;
     line-height: 114.52%;
     color: #010101;
     text-decoration: none;
+    text-align: right;
 }
 
 .nav_link:hover {
@@ -59,6 +64,8 @@
     background: #19191B;
     cursor: pointer;
     transition: 500ms;
+    z-index: 2;
+    
 }
 
 .button:hover {
@@ -68,12 +75,14 @@
 
 
 .getstarted{
+    position: relative;
     font-family: 'DM Sans';
     width: 165px;
     height: 59px;
     font-weight: 700;
     font-size: 17px;
     line-height: 114.52%;
+    
 }
 
 .about {
@@ -166,6 +175,22 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.block_item{
+    position: absolute;
+    width: 577px;
+    height: 59px;
+    right: 0;
+    margin-right: 57px;
+    border-radius: 10px;
+    z-index: 0;
+    background: rgba(105, 104, 113, 0.32);
+}
+
+.odore {
+
+}
+
 
 
 
