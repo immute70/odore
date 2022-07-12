@@ -24,6 +24,13 @@
     align-items: center;
 }
 
+.navig {
+    position: absolute;
+    right: 0;
+    margin-right: 247px;
+    z-index: 2;
+}
+
 .nav_li {
     display: inline-block;
     
@@ -87,7 +94,7 @@
 
 .about {
     display: flex;
-    margin: 183px 253px 0px 258px;
+    margin: 80px 253px 0px 258px;
     justify-content: space-between;
     align-items: center;
 }
@@ -187,9 +194,7 @@
     background: rgba(105, 104, 113, 0.32);
 }
 
-.odore {
 
-}
 
 
 
